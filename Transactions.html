@@ -1,0 +1,200 @@
+<html>
+
+<head>  
+  <title>Agora - Transaction History</title>
+  <link rel="stylesheet" type="text/css" href="../css/Agora Project.css">
+  
+
+ 
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
+
+<script src="Transactions.js"></script>
+
+
+ 
+
+
+</head>
+
+<body>
+
+<div id="main">
+  <!-- Navigation bar -->
+  <ul>
+
+    <!-- Overview -->
+    <li>
+      <a href="#overview">
+        <img id="rotation" src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/home-512.png" alt="House">
+        <div class="button_text">OVERVIEW</div>
+      </a>
+    </li>
+
+    <!-- Transaction history button -->
+    <li>
+      <a class="active" href="#history">
+        <img id="rotation" src="https://cdn3.iconfinder.com/data/icons/pictofoundry-pro-vector-set/512/Pages-512.png" alt="Page">
+        <div class="button_text">TRANSACTIONS</div>
+      </a>
+    </li>
+
+    <!-- Category Button -->
+    <li>
+      <a href="#category">
+        <img src="http://simpleicon.com/wp-content/uploads/pie-chart-3.png" alt="Pie chart">
+        <div class="button_text">CATEGORY</div>
+      </a>
+    </li>
+
+    <!-- Budget button -->
+    <li>
+      <a href="#budget">
+        <img src="https://image.flaticon.com/icons/svg/64/64729.svg" alt="Bar">
+        <div class="button_text">BUDGET</div>
+      </a>
+    </li>
+
+    <!-- Settings button -->
+    <li>
+      <a href="#settings">
+        <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/1241-200.png" alt="Gear">
+        <div class="button_text">SETTINGS</div>
+      </a>
+    </li>
+
+  </ul>
+
+
+  <!-- Header -->
+  <div id="topBar">AGORA</div>
+
+  <div id="titleBar"> Transaction History 
+
+      <button class="buttonRightAlign edit_button" id="edit">Edit</button>
+      <button class="buttonRightAlign edit_button" id="cancel_button_for_add">Cancel</button>
+      <button class="buttonRightAlign edit_button" id="cancel_button_for_edit">Cancel</button>
+      <button class="buttonRightAlign add_button" id="add">Add</button>
+      <button class="buttonRightAlign add_button" id="save_button_for_add">Create</button>
+      <button class="buttonRightAlign add_button" id="save_button_for_edit">Save</button>
+
+      </div>
+
+
+  
+  <div id="mainDiv">
+
+    <!--Search Bar-->
+    <div class="horizontalDiv" >
+      <!-- <div id="searchBar">Search</div> -->
+      <img id="searchbaricon" src="https://image.flaticon.com/icons/png/512/49/49116.png">
+      <input type="text" class="searchBar searchBarTransactions"   placeholder="Search for a transaction..." />
+     
+    </div>
+
+
+
+      <!--Transactions Table-->
+      <div id="add_heading">Add a Transaction</div>
+      <div>
+        
+      <!--Add transactions option-->
+        <table class="add_transaction">
+          <tr>
+            <th class="special_th">
+              <input type="text" placeholder="Name of transaction" class="add">
+            </th>
+            <th class="special_th">
+              <input type="text" placeholder="Date" class="add">
+            </th>
+            <th class="special_th">
+              <input type="text" placeholder="Category" class="add">
+            </th>
+            <th class="special_th">
+              <input type="text" placeholder="Price" class="add">
+            </th>
+          </tr>
+        </table>
+
+      <!--Actual transactions table-->
+        <table class="transactionsTable">
+          <tr>
+            <th style="font-weight: 900;">Name</th>
+            <th style="font-weight: 900;">Date</th>
+            <th style="font-weight: 900;">Category</th>
+            <th style="font-weight: 900;">Price</th>
+          </tr>
+          <tr>
+            <th><input class="edit_textbox" type='text' /><span>McDonald's</span></th>
+            <th><input class="edit_textbox" type='text' /><span>04/02/2017</span></th>
+            <th><input class="edit_textbox" type='text' /><span>Food</span</th>
+          <th><input class="edit_textbox" type='text' /><span>$15.00</span></th>
+          </tr>
+          <tr>
+            <th><input class="edit_textbox" type='text' /><span>Cinema</span></th>
+            <th><input class="edit_textbox" type='text' /><span>01/01/2017</span></th>
+            <th><input class="edit_textbox" type='text' /><span>Entertainment</span></th>
+            <th><input class="edit_textbox" type='text' /><span>$69.69</span></th>
+          </tr>
+          <tr>
+            <th><input class="edit_textbox" type='text' /><span>Cinema</span></th>
+            <th><input class="edit_textbox" type='text' /><span>01/01/2017</span></th>
+            <th><input class="edit_textbox" type='text' /><span>Entertainment</span></th>
+            <th><input class="edit_textbox" type='text' /><span>$69.69</span></th>
+          </tr>
+          <tr>
+            <th>Cinema</th>
+            <th>01/01/2017</th>
+            <th>Entertainment</th>
+            <th>$69.69</th>
+          </tr>
+          <tr>
+            <th>Cinema</th>
+            <th>01/01/2017</th>
+            <th>Entertainment</th>
+            <th>$69.69</th>
+          </tr>
+          <tr>
+            <th>Cinema</th>
+            <th>01/01/2017</th>
+            <th>Entertainment</th>
+            <th>$69.69</th>
+          </tr>
+          <tr>
+            <th>Cinema</th>
+            <th>01/01/2017</th>
+            <th>Entertainment</th>
+            <th>$69.69</th>
+          </tr>
+          <tr>
+            <th>Cinema</th>
+            <th>01/01/2017</th>
+            <th>Entertainment</th>
+            <th>$69.69</th>
+          </tr>
+          <tr>
+            <th>Cinema</th>
+            <th>01/01/2017</th>
+            <th>Entertainment</th>
+            <th>$69.69</th>
+          </tr>
+          <tr>
+            <th>Cinema</th>
+            <th>01/01/2017</th>
+            <th>Entertainment</th>
+            <th>$69.69</th>
+          </tr>
+          <tr>
+            <th>Textbook</th>
+            <th>05/12/2016</th>
+            <th>Education</th>
+            <th>$129.00</th>
+          </tr>
+        </table>
+      </div>
+
+
+    </div>
+
+</body>
+
+</html>
