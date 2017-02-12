@@ -1,0 +1,378 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+
+img {
+  position: relative;
+  top: -70px;
+  float: center;
+  width: 50px;
+  height: 50px;
+  -webkit-transform: rotate(90deg);
+  -webkit-filter: invert(1);
+   filter: invert(1);
+}
+
+#searchbaricon{
+  position: relative;
+  top: 0px;
+  left: 5px;
+  
+   width: 28px;
+  height: 28px;
+  -webkit-transform: rotate(0deg);
+  -webkit-filter: invert(0);
+   filter: invert(0);
+}
+
+#rotation {
+  -webkit-transform: rotate(0deg);
+}
+
+.button_text {
+  position: relative;
+  top: -60px;
+}
+
+#mainDiv {
+  height: 500px;
+  width: 900px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  margin: auto;
+
+  border: 0px;
+  border-style: solid;
+  border-radius: 3px;
+  background: transparent;
+  overflow: auto;
+  /*
+  background: -webkit-linear-gradient(#cecece, #aaaaaa);
+  background: -o-linear-gradient(#cecece, #aaaaaa);
+  background: -moz-linear-gradient(#cecece, #aaaaaa);
+  background: linear-gradient(#cecece, #aaaaaa);
+  box-shadow: 3px 3px 3px #424242;*/
+}
+
+#mainDiv.addon {
+  padding-top: 50px;
+  height: 200px;
+  border: 3px;
+  border-style: solid;
+
+}
+
+.horizontalDiv {
+  display: inline-block;
+  width: 100%;
+}
+
+.searchBar {
+  background-color: #FFFFFF;
+  font-size: 12pt;
+  width: 150px;
+}
+
+.searchBarTransactions{
+  width: 95%;
+  float: right;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.searchBarUsername{
+  
+  position: fixed;
+  right: 600px;
+  bottom: 280px;
+  
+}
+
+.searchBarPassword{
+  
+  position: fixed;
+    right: 600px;
+  bottom: 240px;
+}
+
+
+#Username{
+ width: 80px;
+
+  text-align: right;
+  position: fixed;
+  left: 600px;
+  bottom: 280px;
+
+}
+
+#PasswordL{
+ width: 80px;
+text-align: right;
+  position: fixed;
+  left: 600px;
+  bottom: 240px;
+  
+}
+
+
+button {
+  display: inline-block;
+  
+  width: 120px;
+  
+  border-radius: 4em;
+  font-size: 0.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+        cursor: pointer;
+        font-weight: 400;
+
+   padding: 8px 40px;
+
+
+    border: 0px;
+
+  font-size: 12pt;
+  background-color: transparent;
+    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.2);
+    
+  /*border-style: outset;
+  border-radius: 10px;*/
+}
+
+
+
+button:hover {
+  box-shadow: inset 0 0 0 2px #47D3E5;
+    color: #47D3E5 !important;
+}
+
+button:active {
+  
+  background-color: rgba(71, 211, 229, 0.2);
+}
+
+.Login_Button{
+  width: 150px;
+  position: fixed;
+  right: 650px;
+  bottom: 180px;
+
+
+}
+
+.buttonRightAlign {
+  float: right;
+
+  
+}
+
+#topBar {
+  height: 40px;
+      background: rgba(55,61,73,0.975);
+    color: #fff;
+  margin: auto;
+  margin-bottom: 50px;
+  
+  font-size: 20pt;
+  
+  padding-top: 5px;
+  padding-left: 20px;
+
+ 
+}
+
+#mainLogo {
+  height: 180px;
+  width: 350px;
+      background: rgba(55,61,73,0.975);
+    color: #fff;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 0px;
+  
+  
+  font-size: 50pt;
+  
+  padding-top: 90px;
+  
+  text-align: center;
+  vertical-align: center;
+ 
+}
+
+
+
+#main {
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto Slab", serif;
+      color: #3d4449;
+  margin: 0;
+}
+
+#titleBar{
+  
+  width: 930px;
+  font-size: 40px;
+  padding-left: 0px;
+
+  position: relative;
+  top: -10px;
+  
+  margin: auto;
+}
+
+table,
+tr,
+th {
+  border: 1px solid black;
+  font-size: 12pt;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.transactionsTable {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+  
+}
+
+
+
+
+
+#add_heading {
+  padding-left: 260px;
+  display: None;
+  font-size: 40px;
+  
+}
+
+.add_transaction {
+  display: None;
+  border_collapse: colapse;
+  width: 100%;
+  border: 0;
+}
+
+#save_button_for_add {
+  width: 150px;
+  display: None;
+\
+}
+#save_button_for_edit {
+  display: None;
+  width: 150px;
+}
+
+#cancel_button_for_add {
+  display: None;
+  width: 150px;
+}
+#cancel_button_for_edit {
+  display: None;
+  width: 150px;
+}
+
+.add_button{
+  margin: 0px 5px;
+  position:relative;
+  bottom: -15px;
+   padding: 8px 40px;
+}
+
+.edit_button{
+  margin: 0px 5px;
+  position:relative;
+  bottom: -15px;
+   padding: 8px 40px;
+}
+.add {
+  height: 45px;
+  width: 210px;
+  padding-left: 5px;
+  position: relative;
+  bottom: -20px;
+  font-size: 14px;
+}
+
+.disappear {
+  opacity: 0;
+}
+
+.special_th {
+  border: 0;
+ 
+}
+
+th {
+  height: 50px;
+}
+
+.edit_textbox {
+  display: none;
+
+}
+
+.row {
+  display: block;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  position: fixed;
+  top: 20%;
+}
+
+li a {
+  
+  float: left;
+  width: 120px;
+  height: 10px;
+  display: block;
+  padding-top: 95px;
+  text-decoration: none;
+  text-align: center;
+  border: 0px;
+  margin-bottom: 3px;
+  border-style: solid;
+  opacity: 1.0;
+  color: white;
+  background: rgba(55,61,73,0.975);
+  font-weight: 900;
+  font-size: 10.5px;
+}
+
+
+
+li a.active {
+  width: 140px;
+  
+}
+
+li a:hover {
+  
+    background-color: #B82C1A !important;
+    color: white ;
+    -webkit-filter: invert(1);
+   filter: invert(1);
+}
+
+#box {
+  margin-left: 200px;
+  padding: 1px 15px;
+  height: 40rem;
+  width: 40rem;
+  border-style: solid;
+  overflow: auto;
+}
